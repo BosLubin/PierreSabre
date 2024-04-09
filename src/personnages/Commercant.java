@@ -7,8 +7,11 @@ public class Commercant extends Humain {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public int seFaireExtorquer(perte) {
-		
+	public int seFaireExtorquer() {
+		int extorquer = getArgent();
+		perdreArgent(getArgent());
+		parler("J’ai tout perdu! Le monde est trop injuste...");
+		return extorquer;
 	}
 	
 	public void recevoir(int argent) {
